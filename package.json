@@ -1,0 +1,16 @@
+{
+  "name": "jsnew",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "rollup main.js --file js/dist/main.bundle.js --format iife",
+    "watch": "rollup main.js --file js/dist/main.bundle.js --format iife --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^0.66.6"
+  }
+}
